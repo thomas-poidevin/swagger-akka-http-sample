@@ -5,6 +5,7 @@ scalaVersion := "2.12.1"
 resolvers += Resolver.sonatypeRepo("public")
 resolvers += Resolver.sonatypeRepo("snapshots")
 resolvers += DefaultMavenRepository
+resolvers += "jitpack" at "https://jitpack.io"
 
 val akkaHttpVersion = "10.0.0"
 
